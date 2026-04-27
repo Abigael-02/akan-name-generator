@@ -23,3 +23,7 @@ This project is licensed under the **MIT License**.You are free to use,copy, and
 
 ## Copyright
 © 2026 Abigael
+
+
+---
+*Designed by Abigael Kibunja*
