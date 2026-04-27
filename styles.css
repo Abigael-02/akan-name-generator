@@ -1,0 +1,57 @@
+body {
+  background-color: #fcf6eb;
+  background-image: linear-gradient(135deg, #fcf6eb 0% ffe0b3 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #4a2c1d;
+  text-align: center;
+  font-size: larger;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #725244;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+.input-group label {
+    display: block;
+    color: #4a2c1d;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#birthday,
+#gender {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    bo
+}
