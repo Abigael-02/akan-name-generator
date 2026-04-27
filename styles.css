@@ -8,6 +8,11 @@ body {
   padding: 20px;
 }
 
+.site-header, .site-footer {
+    padding: 20px;
+    text-align: center;
+}
+
 h1 {
   color: #4a2c1d;
   text-align: center;
@@ -31,6 +36,7 @@ p {
   max-width: 450px;
   width: 100%;
   backdrop-filter: blur(10px);
+  text-align: center;
 }
 
 .input-group {
