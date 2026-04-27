@@ -76,4 +76,5 @@ p {
     font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
 }
