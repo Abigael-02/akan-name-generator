@@ -3,7 +3,7 @@
 This application enables users to know their Ghanaian name based on their gender and the period they were born.
 
 ## Project Description
-In Ghanaian culture, children were named after the day of the week they were born.This project uses a mathematical formula to calculate the Akan name based of the birthdate of the user and the year they were born depending on their gender as well.
+In Ghanaian culture, children were named after the day of the week they were born.This project uses a mathematical formula to calculate the Akan name based of the birthdate of the user , the year they were born and their gender as well.
 
 ## Built With:
 * HTML
