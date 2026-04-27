@@ -92,4 +92,11 @@ p {
     padding: 15px;
     background-color: rgba(230,138,0,0.1);
     border-radius: 12px;
+    border: 1px dashed #e68a00;
+    display: none;
+}
+
+#display-name {
+    font-weight: bold;
+    color: #4a2c1d;
 }
