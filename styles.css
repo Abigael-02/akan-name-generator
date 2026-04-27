@@ -67,4 +67,10 @@ p {
 
 #akan-form button {
     width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #e68a00;
+    color: white;
+    border: none;
+    border-radius: 12px;
 }
