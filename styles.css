@@ -43,6 +43,8 @@ p {
   color: #4a2c1d;
   font-weight: 600;
   margin-bottom: 8px;
+  text-align: left;
+  font-size: 0.9rem;
 }
 
 #birthday,
