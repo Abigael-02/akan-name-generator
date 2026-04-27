@@ -26,5 +26,8 @@ document.getElementById("akan-form").addEventListener("submit", function (event)
     if (gender === "male") {
         akanName =
             maleNames[resultDay];
+    } else {
+        akanName =
+            femaleNames[resultDay];
     }
     });
