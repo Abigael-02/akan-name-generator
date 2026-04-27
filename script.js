@@ -30,4 +30,7 @@ document.getElementById("akan-form").addEventListener("submit", function (event)
         akanName =
             femaleNames[resultDay];
     }
+
+    document.getElementById("display-name").innerText = akanName;
+    document.getElementById("result-section").style.display = "block";
     });
