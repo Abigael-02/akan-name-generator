@@ -86,3 +86,10 @@ p {
 #akan-form button:active {
     transform: scale(0.98)
 }
+
+#result-section {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: rgba(230,138,0,0.1);
+    border-radius: 12px;
+}
