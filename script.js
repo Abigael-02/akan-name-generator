@@ -19,4 +19,12 @@ document.getElementById("akan-form").addEventListener("submit", function (event)
         parseInt(year.substring(0, 2));
     const YY =
         parseInt(year.substring(2, 4));
-});
+    let dayOfWeek = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
+    let resultDay =
+        Math.floor(Math.abs(dayOfWeek));
+    let akanName = "";
+    if (gender === "male") {
+        akanName =
+            maleNames[resultDay];
+    }
+    });
