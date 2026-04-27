@@ -103,4 +103,6 @@ p {
     font-weight: bold;
     color: #4a2c1d;
     display: block;
+    font-size: 1.4rem;
+    margin-top: 5px;
 }
