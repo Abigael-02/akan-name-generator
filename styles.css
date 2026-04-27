@@ -91,9 +91,10 @@ p {
 
 #result-section {
     margin-top: 25px;
-    padding: 15px;
+    padding: 20px;
     background-color: rgba(230,138,0,0.1);
     border-radius: 12px;
+    text-align: center;
     border: 1px dashed #e68a00;
     display: none;
 }
@@ -101,4 +102,5 @@ p {
 #display-name {
     font-weight: bold;
     color: #4a2c1d;
+    display: block;
 }
