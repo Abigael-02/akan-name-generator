@@ -1,17 +1,29 @@
 body {
-  background-color: #fcf6eb;
+  background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  flex-direction: column;
 }
 
-.site-header, .site-footer {
+.site-header {
     padding: 20px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #2d5a4c;
+    color: white;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.site-footer {
+    background-color: #1b362d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
 }
 
 main {
