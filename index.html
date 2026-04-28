@@ -1,49 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akan Name Generator</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-    <body> 
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
     <header class="site-header">
-        <h1>Akan Name Generator</h1>
-        <p>Discover your Ghanaian name today!</p>
+      <h1>Akan Name Generator</h1>
+      <p>Discover your Ghanaian name today!</p>
     </header>
 
+    <!-- Navigation Bar -->
+    <nav>
+      <a href="#About">About</a>
+      <a href="#Get-to-Know-Your-Akan-Name">Get to Know Your Akan Name</a>
+    </nav>
+
     <main class="content-wrapper">
-    <div class="container">
+      <div class="container">
         <p>Get to know your Akan name based on the day you were born!</p>
-    
 
         <form id="akan-form">
-            <div class="input-group">
-                <label for="birthday">Enter your birthdate:</label>
-                <input type="date" id="birthday" required>
-            </div>
+          <div class="input-group">
+            <label for="birthday">Enter your birthdate:</label>
+            <input type="date" id="birthday" required />
+          </div>
 
-            <div class="input-group">
-                <label>Select Gender:</label>
-                <select id="gender" required>
-                    <option value="" disabled selected>--Choose Gender--</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-            </div>
-            <button type="submit">Find my name</button>
+          <div class="input-group">
+            <label>Select Gender:</label>
+            <select id="gender" required>
+              <option value="" disabled selected>--Choose Gender--</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <button type="submit">Find my name</button>
         </form>
         <div id="result-section">
-            <p>Your Akan name is:</p>
-            <span id="display-name"></span>
+          <p>Your Akan name is:</p>
+          <span id="display-name"></span>
         </div>
-    </div>
-</main>
+      </div>
+    </main>
 
-<footer class="site-footer">
-    <p>© 2026 Akan Name Generator | Designed by Abigael</p>
-</footer>
+    <footer class="site-footer">
+      <p>© 2026 Akan Name Generator | Designed by Abigael</p>
+    </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

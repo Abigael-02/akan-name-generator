@@ -7,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .site-header {
@@ -17,6 +16,25 @@ body {
     color: white;
     padding: 30px 0;
     width: 100%;
+}
+
+nav {
+    background-color: #4a2c1d;
+    padding: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #e68a00;
 }
 
 .site-footer {
