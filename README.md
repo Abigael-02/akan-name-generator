@@ -5,25 +5,29 @@ This application enables users to know their Ghanaian name based on their gender
 ## Project Description
 In Ghanaian culture, children were named after the day of the week they were born.This project uses a mathematical formula to calculate the Akan name based of the birthdate of the user , the year they were born and their gender as well.
 
+## Author
+Abigael Kibunja
+
 ## Built With:
 * HTML
 * CSS
-* JAVASCRIPT
+* JavaScript
 
 ## Project Setup Instructions
 1. Clone the repository to your terminal.
-2. Open 'index.html' via **Live Server in VS Code.
+2. Open 'index.html' in your web browser.
+3. Enter your birth date and select your gender.
+4. Click 'Find my name' to see your Akan name.
 
 # Link to GitHub Project
 https://github.com/Abigael-02/akan-name-generator
+
+## Contact 
+abigael.kibunja@student.moringaschool.com
 
 ---
 ## License
 This project is licensed under the **MIT License**.You are free to use,copy, and modify the code for your own projects.
 
 ## Copyright
-© 2026 Abigael
-
-
----
-*Designed by Abigael Kibunja*
+© 2026 
