@@ -52,6 +52,6 @@ document
     }
 
     // Display result
-    displayName.innerText = akanName;
-    resultSection.style.display = "block";
+    document.getElementById("display-name").innerText = akanName;
+    document.getElementById("result-section").style.display = "block";
   });
