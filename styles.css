@@ -18,25 +18,6 @@ body {
     width: 100%;
 }
 
-nav {
-    background-color: #4a2c1d;
-    padding: 5px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-    font-weight: bold;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    cursor: pointer;
-}
-
-nav a:hover {
-    color: #e68a00;
-}
-
 .site-footer {
     background-color: #1b362d;
     color: white;
