@@ -23,7 +23,7 @@ Abigael Kibunja
 1. Input: Birth date and gender
    * Output:Akan name based on day of birth and gender
 
-2. Input: Invalid year (1900 <year> 2026)
+2. Input: Invalid year (1900 < year > 2026)
    * Output: Error message requesting year must be between 1900 and 2026
 
 # Link to GitHub Project
