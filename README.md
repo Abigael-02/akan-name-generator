@@ -19,6 +19,9 @@ Abigael Kibunja
 3. Enter your birth date and select your gender.
 4. Click 'Find my name' to see your Akan name.
 
+## BDD (Behaviour Driven Development)
+1. Input
+
 # Link to GitHub Project
 https://github.com/Abigael-02/akan-name-generator
 
